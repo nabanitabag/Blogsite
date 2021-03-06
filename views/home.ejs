@@ -4,11 +4,11 @@
 
 <p> <%= startingContent %></p>
 
-<% postContents.forEach(function (post) {%>
+<% posts.forEach(function (post) {%>
   <h1> <%= post.title %>   </h1>
   <p>
     <%= post.content.substring(0,100) + "..." %>
-    <a href="/posts/<%=post.title%>" >Read more</a>
+    <a href="/posts/<%=post.id%>" >Read more</a>
   </p>
 <% }); %>
 
