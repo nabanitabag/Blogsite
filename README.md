@@ -1,5 +1,6 @@
 # Blogsite
-add new posts to the journal by using '/compose' path
+add new posts to the journal by using '/compose' path.
+
 Technologies and Frameworks used:
 Node.js
 Express.js
